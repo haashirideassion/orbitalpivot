@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react";
 import { useBooking } from "@/contexts/BookingContext";
 
 // ⚠️ Replace this with your actual Calendly scheduling link
-const CALENDLY_URL = "https://calendly.com/pivotwithpurpose/orbital-diagnostic-call";
+const CALENDLY_URL = "https://calendly.com/orbitalpivot/diagnostic-call";
 
 export default function CalendlyModal() {
     const { isOpen, closeBooking } = useBooking();

@@ -61,13 +61,9 @@ export default function Footer() {
                     <div className="flex items-center gap-6">
                         <Link href="#" className="hover:text-[#eb5e28] transition-colors">Privacy Policy</Link>
                         <Link href="#" className="hover:text-[#eb5e28] transition-colors">Contact</Link>
-                        <Link href="https://www.pivotwithpurpose.in/" target="_blank" className="hover:text-[#eb5e28] transition-colors flex items-center gap-1">
-                            <Icon icon="solar:global-bold-duotone" className="w-3.5 h-3.5" />
-                            PivotWithPurpose
-                        </Link>
                     </div>
 
-                    <div>© {new Date().getFullYear()} PivotWithPurpose</div>
+                    <div>© {new Date().getFullYear()} Orbital Pivot</div>
                 </div>
             </div>
         </footer>
